@@ -1,4 +1,5 @@
 import random
+import math
 import csv
 
 def genereateChromosome():
@@ -18,8 +19,7 @@ def generatePopulation(adjacencyMatrix):
 		chromosome = genereateChromosome()
 		if chromosome not in population: 
 			fitness = calculateFitness(chromosome, adjacencyMatrix)
-			population.append([chromosome, fitness])
-
+			population.append([chromosome, fitness, 0, 0])
 	return population
 
 def calculateFitness(chromosome, adjacencyMatrix):
@@ -29,6 +29,15 @@ def calculateFitness(chromosome, adjacencyMatrix):
 
 	return fitness
 	# print(chromosome, fitness)
+
+def fillRankAndSelectionProbabilityColumn(population, fitnessToRankMapping):
+	sumOfRanks = 1000 * 1001 // 2
+	prevProbValue = 0
+	for row in population:
+		row[2] = fitnessToRankMapping[row[1]][0]
+		fitnessToRankMapping[row[1]][0] += 1
+		row[3] = prevProbValue + (row[2] / sumOfRanks)
+		prevProbValue = row[3]
 
 def getDistanceMatrixFromFile():
 	adjacencyMatrix = [[0] * 27 for _ in range(27)]
@@ -51,9 +60,16 @@ def getDistanceMatrixFromFile():
 
 	return adjacencyMatrix, numberToCityMapping
 
+def performSelection(population):
+	selectionWheelValue = random.random()
+
+	for index, row in enumerate(population):
+		if selectionWheelValue <= row[3]:
+			# return row[0], index
+			return row[0]
+
 def performCrossover(parent1, parent2):
 	locus = random.randint(1, 23)
-	print(locus)
 	child1 = [-1] * 26
 	child2 = [-1] * 26
 
@@ -89,31 +105,116 @@ def performCrossover(parent1, parent2):
 
 	return child1, child2
 
+def performMutation(chromosome):
+	locus1 = random.randint(0, 25)
+	locus2 = random.randint(0, 25)
+	# print(locus1, locus2)
+	chromosome[locus1], chromosome[locus2] = chromosome[locus2], chromosome[locus1]
+
 def mapFitnessToRank(population):
 	fitnessToRankMapping = {}
-	population = sorted(population, key = lambda row: row[1])
-	rank = 1
+	population = sorted(population, key = lambda row: -row[1])
 	for index in range(len(population)):
-		if index != 0 and population[index][1] == population[index - 1][1]: continue
-		fitnessToRankMapping[population[index][1]] = rank
-		rank += 1
+		if population[index][1] not in fitnessToRankMapping:
+			fitnessToRankMapping[population[index][1]] = [index + 1, 0]
+		fitnessToRankMapping[population[index][1]][1] += 1
 	return fitnessToRankMapping
 
-def main():
+def findLeastPath(population):
+	minPathCost = math.inf
+	minPathRow = None
+
+	for row in population:
+		if row[1] < minPathCost:
+			minPathCost = row[1]
+			minPathRow = row
+
+	return minPathRow
+
+def printLeastPath(minPathRow, numberToCityMapping):
+	# pass
+	print(numberToCityMapping[0] + "  ->  ", end="")
+	for i in range(len(minPathRow[0])):
+		print(numberToCityMapping[minPathRow[0][i]] + "  ->  ", end="")
+	print(numberToCityMapping[0], end="")
+	print(": " + str(minPathRow[1]))
+
+def implementGeneticAlgorithm():
 	adjacencyMatrix, numberToCityMapping = getDistanceMatrixFromFile()
 	population = generatePopulation(adjacencyMatrix)
-	#print(population[:10])
+	numberOfGenerations = 100
+	counts = {}
+
+	while numberOfGenerations != 0:
+		fitnessToRankMapping = mapFitnessToRank(population)
+		fillRankAndSelectionProbabilityColumn(population, fitnessToRankMapping)
+		minPathRow = findLeastPath(population)
+		if minPathRow[1] not in counts: counts[minPathRow[1]] = 0
+		counts[minPathRow[1]] += 1
+		printLeastPath(minPathRow, numberToCityMapping)
+		# print(fitnessToRankMapping)
+		nextGenerationPopulation = []
+		crossoverRate = random.randrange(40, 60) / 100
+		# print(crossoverRate)
+		crossOverCount = 0
+		for _ in range(500):
+			parent1 = performSelection(population)
+			parent2 = performSelection(population)
+			shallWePerformCrossover = random.random()
+			if shallWePerformCrossover < crossoverRate:
+			# if True:
+				# print(shallWePerformCrossover, crossoverRate)
+				crossOverCount += 1
+				child1, child2 = performCrossover(parent1, parent2)
+				shallWeMutateChild1 = random.random()
+				if shallWeMutateChild1 < 0.01:
+					# print("Hi")
+					# print(child1)
+					performMutation(child1)
+					# print(child1)
+				shallWeMutateChild2 = random.random()
+				if shallWeMutateChild2 < 0.01:
+					# print("Hello")
+					performMutation(child2)
+				nextGenerationPopulation.append([child1, calculateFitness(child1, adjacencyMatrix), 0, 0])
+				nextGenerationPopulation.append([child2, calculateFitness(child2, adjacencyMatrix), 0, 0])
+			else:
+				nextGenerationPopulation.append([parent1, calculateFitness(parent1, adjacencyMatrix), 0, 0])
+				nextGenerationPopulation.append([parent2, calculateFitness(parent2, adjacencyMatrix), 0, 0])
+		# print(crossOverCount)
+		# print(counts)
+		population = nextGenerationPopulation
+		numberOfGenerations -= 1
+
+
+def main():
+	# adjacencyMatrix, numberToCityMapping = getDistanceMatrixFromFile()
+	# population = generatePopulation(adjacencyMatrix)
+	# print(population[:5])
 	# print(population[0], population[-1])
 	# print(numberToCityMapping)
 	#print(adjacencyMatrix)
-	fitnessToRankMapping = mapFitnessToRank(population)
+	# fitnessToRankMapping = mapFitnessToRank(population)
 	# print(fitnessToRankMapping)
-	print(population[0][0])
-	print(population[1][0])
-	child1, child2 = performCrossover(population[0][0], population[1][0])
-	print(child1)
-	print(child2)
+	# fillRankAndSelectionProbabilityColumn(population, fitnessToRankMapping)
+	# print(population)
+	# print(population[0][0])
+	# print(population[1][0])
+	# child1, child2 = performCrossover(population[0][0], population[1][0])
+	# print(child1)
+	# print(child2)
+	# performMutation(child1)
+	# print(child1)
+	# selection = []
+	# for i in range(1000):
+	# 	selection.append(performSelection(population))
 
+	# counts = {}
+	# for row in selection:
+	# 	if row[1] not in counts: counts[row[1]] = 0
+	# 	counts[row[1]] += 1
+	# print(counts)
+	implementGeneticAlgorithm()
 
 if __name__ == "__main__":
 	main()
