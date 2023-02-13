@@ -127,16 +127,21 @@ def findLeastPath(population):
 	return minPathRow
 
 def printLeastPath(minPathRow, numberToCityMapping):
-	string = ""
-	print(numberToCityMapping[0] + "  ->  ", end="")
+	string = "-" * 215
+	string += "\n"
+	string += "The minimum cost to perform the task is " + str(minPathRow[1]) + "\n"
+	string += "The Minimum Cost Path: " + "\n"
+	# print(numberToCityMapping[0] + "  ->  ", end="")
 	string += numberToCityMapping[0] + "  ->  "
 	for i in range(len(minPathRow[0])):
-		print(numberToCityMapping[minPathRow[0][i]] + "  ->  ", end="")
+		# print(numberToCityMapping[minPathRow[0][i]] + "  ->  ", end="")
 		string += numberToCityMapping[minPathRow[0][i]] + "  ->  "
-	print(numberToCityMapping[0], end="")
+	# print(numberToCityMapping[0], end="")
 	string += numberToCityMapping[0]
-	print(": " + str(minPathRow[1]))
-	string += ": " + str(minPathRow[1])
+	# print(": " + str(minPathRow[1]))
+	# string += ": " + str(minPathRow[1])
+	string += "\n"
+	string += "-" * 215
 	string += "\n"
 
 	return string
@@ -151,6 +156,7 @@ def implementGeneticAlgorithm():
 	numberOfGenerations = 100
 	counts = {}
 	outputData = []
+	outputData.append("-" * 215 + "\n")
 
 	while numberOfGenerations != 0:
 		fitnessToRankMapping = mapFitnessToRank(population)
@@ -158,7 +164,7 @@ def implementGeneticAlgorithm():
 		minPathRow = findLeastPath(population)
 		if minPathRow[1] not in counts: counts[minPathRow[1]] = 0
 		counts[minPathRow[1]] += 1
-		outputData.append(printLeastPath(minPathRow, numberToCityMapping))
+		outputData.append("Generation " + str(100 - numberOfGenerations + 1) + "\n" + printLeastPath(minPathRow, numberToCityMapping))
 		nextGenerationPopulation = []
 		crossoverRate = random.randrange(40, 60) / 100
 		for _ in range(500):
@@ -180,7 +186,9 @@ def implementGeneticAlgorithm():
 				nextGenerationPopulation.append([parent2, calculateFitness(parent2, adjacencyMatrix), 0, 0])
 		population = nextGenerationPopulation
 		numberOfGenerations -= 1
+		print(population[:5])
 
+	outputData.append("-" * 215 + "\n")
 	writeOutputDataToFile(outputData)
 
 
