@@ -8,9 +8,7 @@ def genereateChromosome():
 	while genes:
 		gene = random.choice(list(genes))
 		chromosome.append(gene)
-		# chromosome.append(str(gene))
 		genes.remove(gene)
-	# chromosome = " ".join(chromosome)
 	return chromosome
 
 def generatePopulation(adjacencyMatrix):
@@ -28,7 +26,6 @@ def calculateFitness(chromosome, adjacencyMatrix):
 		fitness += adjacencyMatrix[i][i + 1]
 
 	return fitness
-	# print(chromosome, fitness)
 
 def fillRankAndSelectionProbabilityColumn(population, fitnessToRankMapping):
 	sumOfRanks = 1000 * 1001 // 2
@@ -65,7 +62,6 @@ def performSelection(population):
 
 	for index, row in enumerate(population):
 		if selectionWheelValue <= row[3]:
-			# return row[0], index
 			return row[0]
 
 def performCrossover(parent1, parent2):
@@ -108,7 +104,6 @@ def performCrossover(parent1, parent2):
 def performMutation(chromosome):
 	locus1 = random.randint(0, 25)
 	locus2 = random.randint(0, 25)
-	# print(locus1, locus2)
 	chromosome[locus1], chromosome[locus2] = chromosome[locus2], chromosome[locus1]
 
 def mapFitnessToRank(population):
@@ -132,18 +127,30 @@ def findLeastPath(population):
 	return minPathRow
 
 def printLeastPath(minPathRow, numberToCityMapping):
-	# pass
+	string = ""
 	print(numberToCityMapping[0] + "  ->  ", end="")
+	string += numberToCityMapping[0] + "  ->  "
 	for i in range(len(minPathRow[0])):
 		print(numberToCityMapping[minPathRow[0][i]] + "  ->  ", end="")
+		string += numberToCityMapping[minPathRow[0][i]] + "  ->  "
 	print(numberToCityMapping[0], end="")
+	string += numberToCityMapping[0]
 	print(": " + str(minPathRow[1]))
+	string += ": " + str(minPathRow[1])
+	string += "\n"
+
+	return string
+
+def writeOutputDataToFile(outputData):
+	with open('output.txt', mode ='w') as outputFile:
+		outputFile.writelines(outputData)
 
 def implementGeneticAlgorithm():
 	adjacencyMatrix, numberToCityMapping = getDistanceMatrixFromFile()
 	population = generatePopulation(adjacencyMatrix)
 	numberOfGenerations = 100
 	counts = {}
+	outputData = []
 
 	while numberOfGenerations != 0:
 		fitnessToRankMapping = mapFitnessToRank(population)
@@ -151,40 +158,30 @@ def implementGeneticAlgorithm():
 		minPathRow = findLeastPath(population)
 		if minPathRow[1] not in counts: counts[minPathRow[1]] = 0
 		counts[minPathRow[1]] += 1
-		printLeastPath(minPathRow, numberToCityMapping)
-		# print(fitnessToRankMapping)
+		outputData.append(printLeastPath(minPathRow, numberToCityMapping))
 		nextGenerationPopulation = []
 		crossoverRate = random.randrange(40, 60) / 100
-		# print(crossoverRate)
-		crossOverCount = 0
 		for _ in range(500):
 			parent1 = performSelection(population)
 			parent2 = performSelection(population)
 			shallWePerformCrossover = random.random()
 			if shallWePerformCrossover < crossoverRate:
-			# if True:
-				# print(shallWePerformCrossover, crossoverRate)
-				crossOverCount += 1
 				child1, child2 = performCrossover(parent1, parent2)
 				shallWeMutateChild1 = random.random()
 				if shallWeMutateChild1 < 0.01:
-					# print("Hi")
-					# print(child1)
 					performMutation(child1)
-					# print(child1)
 				shallWeMutateChild2 = random.random()
 				if shallWeMutateChild2 < 0.01:
-					# print("Hello")
 					performMutation(child2)
 				nextGenerationPopulation.append([child1, calculateFitness(child1, adjacencyMatrix), 0, 0])
 				nextGenerationPopulation.append([child2, calculateFitness(child2, adjacencyMatrix), 0, 0])
 			else:
 				nextGenerationPopulation.append([parent1, calculateFitness(parent1, adjacencyMatrix), 0, 0])
 				nextGenerationPopulation.append([parent2, calculateFitness(parent2, adjacencyMatrix), 0, 0])
-		# print(crossOverCount)
-		# print(counts)
 		population = nextGenerationPopulation
 		numberOfGenerations -= 1
+
+	writeOutputDataToFile(outputData)
 
 
 def main():
@@ -217,4 +214,6 @@ def main():
 	implementGeneticAlgorithm()
 
 if __name__ == "__main__":
-	main()
+	implementGeneticAlgorithm()
+
+	
