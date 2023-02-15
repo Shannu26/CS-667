@@ -142,7 +142,7 @@ def printLeastPath(minPathRow, numberToCityMapping):
 	return string
 
 def writeOutputDataToFile(outputData):
-	with open('output' + str(random.random()) + '.txt', mode ='w') as outputFile:
+	with open('output.txt', mode ='w') as outputFile:
 		outputFile.writelines(outputData)
 
 def implementGeneticAlgorithm():
