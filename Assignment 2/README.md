@@ -1,9 +1,9 @@
 # Team Members:
-	#### Shanmukha Datta Sai Sasank Tadepalli - NetID: na2500
-	#### Bhavana Kamasani - NetID:
-	#### Neeraj Kumar Maraka - NetID:
+	Shanmukha Datta Sai Sasank Tadepalli - NetID: na2500
+	Bhavana Kamasani - NetID:
+	Neeraj Kumar Maraka - NetID:
 
-How to run the code file?
+# How to run the code file?
 	Open Terminal or Command Prompt.
 	Go to the file location.
 	Run the below command.
