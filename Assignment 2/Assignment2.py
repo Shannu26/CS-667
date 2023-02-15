@@ -162,6 +162,7 @@ def implementGeneticAlgorithm():
 		outputData.append("Generation " + str(200 - numberOfGenerations + 1) + "\n" + printLeastPath(minPathRow, numberToCityMapping))
 		nextGenerationPopulation = []
 		crossoverRate = random.randrange(40, 60) / 100
+		mutationRate = 0.01
 		for _ in range(500):
 			parent1 = performSelection(population)
 			parent2 = performSelection(population)
@@ -169,14 +170,20 @@ def implementGeneticAlgorithm():
 			if shallWePerformCrossover < crossoverRate:
 				child1, child2 = performCrossover(parent1, parent2)
 				shallWeMutateChild1 = random.random()
-				if shallWeMutateChild1 < 0.01:
+				if shallWeMutateChild1 < mutationRate:
 					performMutation(child1)
 				shallWeMutateChild2 = random.random()
-				if shallWeMutateChild2 < 0.01:
+				if shallWeMutateChild2 < mutationRate:
 					performMutation(child2)
 				nextGenerationPopulation.append([child1, calculateFitness(child1, adjacencyMatrix), 0, 0])
 				nextGenerationPopulation.append([child2, calculateFitness(child2, adjacencyMatrix), 0, 0])
 			else:
+				shallWeMutateParent1 = random.random()
+				if shallWeMutateParent1 < mutationRate:
+					performMutation(parent1)
+				shallWeMutateParent2 = random.random()
+				if shallWeMutateParent2 < mutationRate:
+					performMutation(parent2)
 				nextGenerationPopulation.append([parent1, calculateFitness(parent1, adjacencyMatrix), 0, 0])
 				nextGenerationPopulation.append([parent2, calculateFitness(parent2, adjacencyMatrix), 0, 0])
 		population = nextGenerationPopulation
@@ -184,7 +191,6 @@ def implementGeneticAlgorithm():
 
 	outputData.append("-" * 215 + "\n")
 	writeOutputDataToFile(outputData)
-
 
 def main():
 	implementGeneticAlgorithm()
