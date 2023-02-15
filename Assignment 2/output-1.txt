@@ -1,0 +1,1202 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5504
+The Minimum Cost Path: 
+Bakersfield  ->  Merced  ->  Monterey  ->  Yosemite  ->  San Luis Obispo  ->  Barstow  ->  Oakland  ->  Sacramento  ->  Fresno  ->  Stockton  ->  San Francisco  ->  Carlsbad  ->  Palm Springs  ->  Las Vegas  ->  San Bernardino  ->  Los Angeles  ->  San Diego  ->  Santa Barbara  ->  Long Beach  ->   Modesto  ->  Santa Cruz  ->  San Jose  ->  Sequoia Park  ->  Lake Tahoe  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5556
+The Minimum Cost Path: 
+Bakersfield  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  San Luis Obispo  ->  Santa Barbara  ->  Fresno  ->  Los Angeles  ->  Sequoia Park  ->  Sacramento  ->  Santa Cruz  ->   Modesto  ->  Lake Tahoe  ->  Stockton  ->  Monterey  ->  Oakland  ->  Merced  ->  San Bernardino  ->  Barstow  ->  San Jose  ->  Yosemite  ->  Las Vegas  ->  Long Beach  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 3
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5556
+The Minimum Cost Path: 
+Bakersfield  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  San Luis Obispo  ->  Santa Barbara  ->  Fresno  ->  Los Angeles  ->  Sequoia Park  ->  Sacramento  ->  Santa Cruz  ->   Modesto  ->  Lake Tahoe  ->  Stockton  ->  Monterey  ->  Oakland  ->  Merced  ->  San Bernardino  ->  Barstow  ->  San Jose  ->  Yosemite  ->  Las Vegas  ->  Long Beach  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 4
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5557
+The Minimum Cost Path: 
+Bakersfield  ->  Las Vegas  ->  San Luis Obispo  ->  Carlsbad  ->  Long Beach  ->  San Bernardino  ->  Fresno  ->  San Diego  ->  Barstow  ->  Los Angeles  ->  Sequoia Park  ->  Monterey  ->  Eureka  ->  Redding  ->  Lake Tahoe  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Santa Barbara  ->  Santa Cruz  ->  San Jose  ->  Yosemite  ->  San Francisco  ->  Sacramento  ->  Merced  ->  Palm Springs  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 5
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5596
+The Minimum Cost Path: 
+Bakersfield  ->  Stockton  ->  Monterey  ->  Redding  ->  Sacramento  ->   Modesto  ->  Yosemite  ->  Lake Tahoe  ->  Sequoia Park  ->  Santa Cruz  ->  San Luis Obispo  ->  Merced  ->  San Jose  ->  Sanata Rosa  ->  Oakland  ->  San Francisco  ->  Carlsbad  ->  Los Angeles  ->  Palm Springs  ->  Las Vegas  ->  San Bernardino  ->  Santa Barbara  ->  Eureka  ->  Fresno  ->  Long Beach  ->  San Diego  ->  Barstow  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 6
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5380
+The Minimum Cost Path: 
+Bakersfield  ->  Santa Cruz  ->   Modesto  ->  Fresno  ->  Monterey  ->  Redding  ->  Eureka  ->  Sequoia Park  ->  Merced  ->  Oakland  ->  Sanata Rosa  ->  San Bernardino  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Las Vegas  ->  Palm Springs  ->  San Francisco  ->  San Jose  ->  Stockton  ->  Sacramento  ->  Yosemite  ->  Santa Barbara  ->  San Luis Obispo  ->  Lake Tahoe  ->  Barstow  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 7
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5217
+The Minimum Cost Path: 
+Bakersfield  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  Santa Barbara  ->  Fresno  ->  Los Angeles  ->  Sequoia Park  ->  Sacramento  ->  Lake Tahoe  ->  Stockton  ->  San Jose  ->   Modesto  ->  Monterey  ->  Santa Cruz  ->  San Luis Obispo  ->  Oakland  ->  Merced  ->  San Bernardino  ->  Barstow  ->  Yosemite  ->  Las Vegas  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 8
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5185
+The Minimum Cost Path: 
+Bakersfield  ->  Long Beach  ->  Los Angeles  ->  San Bernardino  ->  San Diego  ->  Santa Barbara  ->  Carlsbad  ->  Las Vegas  ->  Merced  ->  Oakland  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->  Barstow  ->  Yosemite  ->  Stockton  ->  Monterey  ->  Sequoia Park  ->  San Jose  ->  Sanata Rosa  ->   Modesto  ->  Fresno  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  Palm Springs  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 9
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 5116
+The Minimum Cost Path: 
+Bakersfield  ->  Merced  ->  Sanata Rosa  ->  San Jose  ->  Fresno  ->  San Luis Obispo  ->  Barstow  ->  Sequoia Park  ->  San Diego  ->  Carlsbad  ->  Santa Barbara  ->  Oakland  ->  Stockton  ->  Sacramento  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  Redding  ->  Lake Tahoe  ->  San Francisco  ->   Modesto  ->  Santa Cruz  ->  Monterey  ->  Yosemite  ->  Las Vegas  ->  Long Beach  ->  Los Angeles  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 10
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4891
+The Minimum Cost Path: 
+Bakersfield  ->  San Jose  ->  Lake Tahoe  ->  San Bernardino  ->  Las Vegas  ->  Barstow  ->  Fresno  ->  Stockton  ->   Modesto  ->  Yosemite  ->  Sequoia Park  ->  Palm Springs  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Merced  ->  Sacramento  ->  Santa Cruz  ->  Oakland  ->  Santa Barbara  ->  San Luis Obispo  ->  Sanata Rosa  ->  Eureka  ->  Redding  ->  San Francisco  ->  Monterey  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 11
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4465
+The Minimum Cost Path: 
+Bakersfield  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  Merced  ->  Oakland  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->  Yosemite  ->  Stockton  ->  Monterey  ->  Sequoia Park  ->  San Jose  ->  Sanata Rosa  ->   Modesto  ->  Fresno  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  Palm Springs  ->  Long Beach  ->  Los Angeles  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 12
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4416
+The Minimum Cost Path: 
+Bakersfield  ->  Santa Barbara  ->  Los Angeles  ->  Sequoia Park  ->  Fresno  ->  Merced  ->   Modesto  ->  Sacramento  ->  Lake Tahoe  ->  San Jose  ->  Monterey  ->  Santa Cruz  ->  Oakland  ->  Yosemite  ->  Stockton  ->  San Luis Obispo  ->  San Bernardino  ->  Las Vegas  ->  Carlsbad  ->  Palm Springs  ->  Long Beach  ->  San Diego  ->  Barstow  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 13
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4683
+The Minimum Cost Path: 
+Bakersfield  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  Merced  ->  Oakland  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->  Yosemite  ->  Stockton  ->  Monterey  ->  Sequoia Park  ->  San Jose  ->  Sacramento  ->  Sanata Rosa  ->   Modesto  ->  Fresno  ->  Lake Tahoe  ->  San Luis Obispo  ->  Palm Springs  ->  Long Beach  ->  Los Angeles  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 14
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4589
+The Minimum Cost Path: 
+Bakersfield  ->   Modesto  ->  Sequoia Park  ->  Merced  ->  Oakland  ->  Sanata Rosa  ->  Fresno  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Palm Springs  ->  San Francisco  ->  San Jose  ->  Stockton  ->  Sacramento  ->  Yosemite  ->  Monterey  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Lake Tahoe  ->  Santa Cruz  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 15
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4457
+The Minimum Cost Path: 
+Bakersfield  ->  San Bernardino  ->  Las Vegas  ->  Barstow  ->  Fresno  ->   Modesto  ->  Yosemite  ->  Sequoia Park  ->  Palm Springs  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Merced  ->  San Jose  ->  Stockton  ->  Oakland  ->  Lake Tahoe  ->  Sacramento  ->  Santa Cruz  ->  Santa Barbara  ->  San Luis Obispo  ->  Sanata Rosa  ->  Eureka  ->  Redding  ->  San Francisco  ->  Monterey  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 16
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4559
+The Minimum Cost Path: 
+Bakersfield  ->  Barstow  ->  Los Angeles  ->  Merced  ->  Oakland  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->  Yosemite  ->  Stockton  ->  Monterey  ->  San Jose  ->  Sacramento  ->  Sanata Rosa  ->   Modesto  ->  Fresno  ->  Lake Tahoe  ->  San Luis Obispo  ->  Sequoia Park  ->  Las Vegas  ->  Santa Barbara  ->  Long Beach  ->  Palm Springs  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 17
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4380
+The Minimum Cost Path: 
+Bakersfield  ->  Fresno  ->  Stockton  ->   Modesto  ->  Yosemite  ->  Sequoia Park  ->  Palm Springs  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Merced  ->  Sacramento  ->  San Francisco  ->  Sanata Rosa  ->  Santa Cruz  ->  Eureka  ->  Redding  ->  Oakland  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  San Jose  ->  Lake Tahoe  ->  San Bernardino  ->  Las Vegas  ->  Barstow  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 18
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4408
+The Minimum Cost Path: 
+Bakersfield  ->   Modesto  ->  San Jose  ->  Sequoia Park  ->  San Luis Obispo  ->  Fresno  ->  Yosemite  ->  Sacramento  ->  Redding  ->  Lake Tahoe  ->  Eureka  ->  Monterey  ->  Santa Cruz  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Stockton  ->  San Francisco  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 19
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4285
+The Minimum Cost Path: 
+Bakersfield  ->   Modesto  ->  Sequoia Park  ->  Merced  ->  Oakland  ->  Sanata Rosa  ->  San Francisco  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Lake Tahoe  ->  Sacramento  ->  Yosemite  ->  Stockton  ->  Santa Cruz  ->  San Jose  ->  Monterey  ->  San Luis Obispo  ->  Palm Springs  ->  Los Angeles  ->  Las Vegas  ->  Barstow  ->  Carlsbad  ->  San Diego  ->  Santa Barbara  ->  Fresno  ->  Long Beach  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 20
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4239
+The Minimum Cost Path: 
+Bakersfield  ->  Merced  ->  Santa Barbara  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->  Stockton  ->  Yosemite  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->   Modesto  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  Palm Springs  ->  Los Angeles  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Sequoia Park  ->  Fresno  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 21
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4239
+The Minimum Cost Path: 
+Bakersfield  ->  Merced  ->  Santa Barbara  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->  Stockton  ->  Yosemite  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->   Modesto  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  Palm Springs  ->  Los Angeles  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Sequoia Park  ->  Fresno  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 22
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 4032
+The Minimum Cost Path: 
+Bakersfield  ->  Stockton  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Monterey  ->  San Jose  ->   Modesto  ->  Sacramento  ->  Lake Tahoe  ->  Oakland  ->  Sanata Rosa  ->  Merced  ->  San Luis Obispo  ->  Los Angeles  ->  San Bernardino  ->  Las Vegas  ->  Barstow  ->  Palm Springs  ->  Santa Barbara  ->  Long Beach  ->  San Diego  ->  Carlsbad  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 23
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3993
+The Minimum Cost Path: 
+Bakersfield  ->  Santa Barbara  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->   Modesto  ->  Yosemite  ->  Stockton  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  Palm Springs  ->  Los Angeles  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Sequoia Park  ->  Fresno  ->  Merced  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 24
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3993
+The Minimum Cost Path: 
+Bakersfield  ->  Santa Barbara  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->   Modesto  ->  Yosemite  ->  Stockton  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  Palm Springs  ->  Los Angeles  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Sequoia Park  ->  Fresno  ->  Merced  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 25
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3993
+The Minimum Cost Path: 
+Bakersfield  ->  Santa Barbara  ->  Eureka  ->  Redding  ->  San Francisco  ->  Santa Cruz  ->   Modesto  ->  Yosemite  ->  Stockton  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  Palm Springs  ->  Los Angeles  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Sequoia Park  ->  Fresno  ->  Merced  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 26
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3879
+The Minimum Cost Path: 
+Bakersfield  ->  Monterey  ->  San Luis Obispo  ->  Santa Cruz  ->  Fresno  ->   Modesto  ->  Yosemite  ->  Sacramento  ->  Lake Tahoe  ->  Stockton  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Santa Barbara  ->  Long Beach  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  San Bernardino  ->  Eureka  ->  Redding  ->  Las Vegas  ->  Barstow  ->  Los Angeles  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 27
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3971
+The Minimum Cost Path: 
+Bakersfield  ->  Sequoia Park  ->  San Jose  ->  Monterey  ->  San Luis Obispo  ->  Santa Cruz  ->  Sacramento  ->  Fresno  ->  Yosemite  ->  Merced  ->  San Francisco  ->   Modesto  ->  Stockton  ->  Sanata Rosa  ->  Oakland  ->  Long Beach  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Bernardino  ->  Eureka  ->  Redding  ->  Lake Tahoe  ->  Las Vegas  ->  Barstow  ->  Santa Barbara  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 28
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3971
+The Minimum Cost Path: 
+Bakersfield  ->  Sequoia Park  ->  San Jose  ->  Monterey  ->  San Luis Obispo  ->  Santa Cruz  ->  Sacramento  ->  Fresno  ->  Yosemite  ->  Merced  ->  San Francisco  ->   Modesto  ->  Stockton  ->  Sanata Rosa  ->  Oakland  ->  Long Beach  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Bernardino  ->  Eureka  ->  Redding  ->  Lake Tahoe  ->  Las Vegas  ->  Barstow  ->  Santa Barbara  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 29
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3971
+The Minimum Cost Path: 
+Bakersfield  ->  Sequoia Park  ->  San Jose  ->  Monterey  ->  San Luis Obispo  ->  Santa Cruz  ->  Sacramento  ->  Fresno  ->  Yosemite  ->  Merced  ->  San Francisco  ->   Modesto  ->  Stockton  ->  Sanata Rosa  ->  Oakland  ->  Long Beach  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Bernardino  ->  Eureka  ->  Redding  ->  Lake Tahoe  ->  Las Vegas  ->  Barstow  ->  Santa Barbara  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 30
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3915
+The Minimum Cost Path: 
+Bakersfield  ->  Merced  ->  Yosemite  ->  Sequoia Park  ->  Fresno  ->  Oakland  ->  Monterey  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->   Modesto  ->  Lake Tahoe  ->  Stockton  ->  Sacramento  ->  Santa Cruz  ->  San Luis Obispo  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  San Bernardino  ->  Eureka  ->  Redding  ->  Santa Barbara  ->  San Diego  ->  Carlsbad  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 31
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3916
+The Minimum Cost Path: 
+Bakersfield  ->  Fresno  ->  Stockton  ->  San Jose  ->  Sanata Rosa  ->   Modesto  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Francisco  ->  Merced  ->  Yosemite  ->  Sequoia Park  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Diego  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Oakland  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 32
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3844
+The Minimum Cost Path: 
+Bakersfield  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->  Redding  ->  Eureka  ->  Stockton  ->   Modesto  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  Santa Barbara  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Sequoia Park  ->  Fresno  ->  Merced  ->  San Francisco  ->  Santa Cruz  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 33
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3844
+The Minimum Cost Path: 
+Bakersfield  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->  Redding  ->  Eureka  ->  Stockton  ->   Modesto  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  Santa Barbara  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Sequoia Park  ->  Fresno  ->  Merced  ->  San Francisco  ->  Santa Cruz  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 34
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3756
+The Minimum Cost Path: 
+Bakersfield  ->  Stockton  ->  San Jose  ->   Modesto  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  Merced  ->  Yosemite  ->  Sequoia Park  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Diego  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Oakland  ->  Fresno  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 35
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3756
+The Minimum Cost Path: 
+Bakersfield  ->  Stockton  ->  San Jose  ->   Modesto  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  Merced  ->  Yosemite  ->  Sequoia Park  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Diego  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Oakland  ->  Fresno  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 36
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3756
+The Minimum Cost Path: 
+Bakersfield  ->  Stockton  ->  San Jose  ->   Modesto  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  Merced  ->  Yosemite  ->  Sequoia Park  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Diego  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Oakland  ->  Fresno  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 37
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3585
+The Minimum Cost Path: 
+Bakersfield  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->  Stockton  ->   Modesto  ->  Sacramento  ->  San Luis Obispo  ->  Lake Tahoe  ->  Redding  ->  Eureka  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  Santa Barbara  ->  Las Vegas  ->  Barstow  ->  Long Beach  ->  Sequoia Park  ->  Fresno  ->  Merced  ->  San Francisco  ->  Santa Cruz  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 38
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3756
+The Minimum Cost Path: 
+Bakersfield  ->  Stockton  ->  San Jose  ->   Modesto  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  Merced  ->  Yosemite  ->  Sequoia Park  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Diego  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Oakland  ->  Fresno  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 39
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3744
+The Minimum Cost Path: 
+Bakersfield  ->  Merced  ->  Oakland  ->  Sanata Rosa  ->  San Francisco  ->  Redding  ->  Eureka  ->  Lake Tahoe  ->  Sacramento  ->  Stockton  ->  Santa Cruz  ->  San Jose  ->  Monterey  ->  San Luis Obispo  ->  Santa Barbara  ->  Carlsbad  ->  Palm Springs  ->  San Bernardino  ->  Los Angeles  ->  Las Vegas  ->  Barstow  ->  San Diego  ->  Long Beach  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->   Modesto  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 40
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3736
+The Minimum Cost Path: 
+Bakersfield  ->  Fresno  ->  Monterey  ->  Santa Cruz  ->  Lake Tahoe  ->  Sacramento  ->  Stockton  ->  Redding  ->  Eureka  ->  San Francisco  ->  San Jose  ->  Oakland  ->  Sanata Rosa  ->  Merced  ->   Modesto  ->  Yosemite  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  Sequoia Park  ->  San Luis Obispo  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 41
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3721
+The Minimum Cost Path: 
+Bakersfield  ->  Monterey  ->  San Jose  ->  Santa Cruz  ->  Oakland  ->  Yosemite  ->  Sacramento  ->  Stockton  ->   Modesto  ->  Lake Tahoe  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  Los Angeles  ->  San Diego  ->  Long Beach  ->  Carlsbad  ->  Palm Springs  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 42
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3562
+The Minimum Cost Path: 
+Bakersfield  ->  Stockton  ->  San Jose  ->  Oakland  ->  San Francisco  ->   Modesto  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Sacramento  ->  Lake Tahoe  ->  Los Angeles  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Yosemite  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 43
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3667
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Santa Cruz  ->  Stockton  ->  Oakland  ->  San Jose  ->   Modesto  ->  Merced  ->  San Francisco  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Sacramento  ->  Lake Tahoe  ->  San Luis Obispo  ->  Los Angeles  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  San Bernardino  ->  Palm Springs  ->  Santa Barbara  ->  Monterey  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 44
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3634
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Merced  ->   Modesto  ->  San Jose  ->  Oakland  ->  Sacramento  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Lake Tahoe  ->  San Luis Obispo  ->  Los Angeles  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Francisco  ->  Santa Cruz  ->  Stockton  ->  Monterey  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 45
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3634
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Merced  ->   Modesto  ->  San Jose  ->  Oakland  ->  Sacramento  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Lake Tahoe  ->  San Luis Obispo  ->  Los Angeles  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Francisco  ->  Santa Cruz  ->  Stockton  ->  Monterey  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 46
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3634
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Merced  ->   Modesto  ->  San Jose  ->  Oakland  ->  Sacramento  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Lake Tahoe  ->  San Luis Obispo  ->  Los Angeles  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Francisco  ->  Santa Cruz  ->  Stockton  ->  Monterey  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 47
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3634
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Merced  ->   Modesto  ->  San Jose  ->  Oakland  ->  Sacramento  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Lake Tahoe  ->  San Luis Obispo  ->  Los Angeles  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Francisco  ->  Santa Cruz  ->  Stockton  ->  Monterey  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 48
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3628
+The Minimum Cost Path: 
+Bakersfield  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sacramento  ->  Lake Tahoe  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  San Luis Obispo  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  Santa Cruz  ->  Stockton  ->  Yosemite  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 49
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3628
+The Minimum Cost Path: 
+Bakersfield  ->  Monterey  ->  San Jose  ->  Oakland  ->  Sacramento  ->  Lake Tahoe  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  San Luis Obispo  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  Santa Cruz  ->  Stockton  ->  Yosemite  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 50
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3411
+The Minimum Cost Path: 
+Bakersfield  ->  Lake Tahoe  ->  Sacramento  ->  San Jose  ->  Oakland  ->  San Francisco  ->  Sanata Rosa  ->   Modesto  ->  Redding  ->  Eureka  ->  San Bernardino  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Long Beach  ->  Los Angeles  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Yosemite  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Stockton  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 51
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3563
+The Minimum Cost Path: 
+Bakersfield  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Diego  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 52
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3352
+The Minimum Cost Path: 
+Bakersfield  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Long Beach  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 53
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3297
+The Minimum Cost Path: 
+Bakersfield  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 54
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3297
+The Minimum Cost Path: 
+Bakersfield  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 55
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3558
+The Minimum Cost Path: 
+Bakersfield  ->  San Jose  ->  Oakland  ->  Sacramento  ->  Lake Tahoe  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  San Francisco  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->  Yosemite  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 56
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3481
+The Minimum Cost Path: 
+Bakersfield  ->  San Jose  ->  San Francisco  ->  Oakland  ->  Sanata Rosa  ->  Lake Tahoe  ->  Yosemite  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Carlsbad  ->  Palm Springs  ->  Las Vegas  ->  Santa Barbara  ->  Los Angeles  ->  San Diego  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 57
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3416
+The Minimum Cost Path: 
+Bakersfield  ->  Lake Tahoe  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Santa Cruz  ->  San Luis Obispo  ->  Santa Barbara  ->  Long Beach  ->  Los Angeles  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Monterey  ->  San Jose  ->  Oakland  ->  San Francisco  ->  Stockton  ->   Modesto  ->  Sacramento  ->  Yosemite  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 58
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3416
+The Minimum Cost Path: 
+Bakersfield  ->  Lake Tahoe  ->  Redding  ->  Eureka  ->  Sanata Rosa  ->  Santa Cruz  ->  San Luis Obispo  ->  Santa Barbara  ->  Long Beach  ->  Los Angeles  ->  San Diego  ->  Carlsbad  ->  Palm Springs  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Monterey  ->  San Jose  ->  Oakland  ->  San Francisco  ->  Stockton  ->   Modesto  ->  Sacramento  ->  Yosemite  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 59
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3352
+The Minimum Cost Path: 
+Bakersfield  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Long Beach  ->  Carlsbad  ->  Palm Springs  ->  Los Angeles  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 60
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3479
+The Minimum Cost Path: 
+Bakersfield  ->  Oakland  ->  Sacramento  ->  Lake Tahoe  ->  Sanata Rosa  ->  San Francisco  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  San Jose  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 61
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3407
+The Minimum Cost Path: 
+Bakersfield  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  San Diego  ->  Carlsbad  ->  Long Beach  ->  Los Angeles  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Lake Tahoe  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 62
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3291
+The Minimum Cost Path: 
+Bakersfield  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 63
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3291
+The Minimum Cost Path: 
+Bakersfield  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 64
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3291
+The Minimum Cost Path: 
+Bakersfield  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 65
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3291
+The Minimum Cost Path: 
+Bakersfield  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 66
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3291
+The Minimum Cost Path: 
+Bakersfield  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Barstow  ->  Las Vegas  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Lake Tahoe  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Yosemite  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 67
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3170
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Palm Springs  ->  Las Vegas  ->  Los Angeles  ->  Carlsbad  ->  San Diego  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 68
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3170
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Palm Springs  ->  Las Vegas  ->  Los Angeles  ->  Carlsbad  ->  San Diego  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 69
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3167
+The Minimum Cost Path: 
+Bakersfield  ->  Oakland  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Long Beach  ->  Barstow  ->  Las Vegas  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Los Angeles  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 70
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3135
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  San Diego  ->  Los Angeles  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 71
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3109
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 72
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 3109
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 73
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2997
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  San Diego  ->  Los Angeles  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 74
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2997
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  San Diego  ->  Los Angeles  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 75
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2997
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  San Diego  ->  Los Angeles  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 76
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2997
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  San Diego  ->  Los Angeles  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 77
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2997
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  San Diego  ->  Los Angeles  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 78
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2997
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  San Diego  ->  Los Angeles  ->  Carlsbad  ->  Long Beach  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 79
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 80
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 81
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 82
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 83
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 84
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2794
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 85
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2794
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 86
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 87
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 88
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 89
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2837
+The Minimum Cost Path: 
+Bakersfield  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  Stockton  ->   Modesto  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 90
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2761
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Palm Springs  ->  Barstow  ->  Las Vegas  ->  Carlsbad  ->  San Diego  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 91
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2761
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Palm Springs  ->  Barstow  ->  Las Vegas  ->  Carlsbad  ->  San Diego  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 92
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2661
+The Minimum Cost Path: 
+Bakersfield  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 93
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2635
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 94
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2635
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 95
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2661
+The Minimum Cost Path: 
+Bakersfield  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 96
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2661
+The Minimum Cost Path: 
+Bakersfield  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 97
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2661
+The Minimum Cost Path: 
+Bakersfield  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 98
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2661
+The Minimum Cost Path: 
+Bakersfield  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 99
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2661
+The Minimum Cost Path: 
+Bakersfield  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 100
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2661
+The Minimum Cost Path: 
+Bakersfield  ->  Barstow  ->  Las Vegas  ->  Palm Springs  ->  Carlsbad  ->  San Diego  ->  Los Angeles  ->  Long Beach  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 101
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 102
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 103
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 104
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 105
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 106
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 107
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 108
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 109
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 110
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 111
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 112
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 113
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 114
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 115
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 116
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 117
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 118
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 119
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 120
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 121
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 122
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 123
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 124
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 125
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 126
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 127
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 128
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 129
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 130
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 131
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 132
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 133
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 134
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 135
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 136
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 137
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 138
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 139
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 140
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 141
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 142
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 143
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 144
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 145
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 146
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 147
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 148
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 149
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 150
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 151
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 152
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 153
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 154
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 155
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 156
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 157
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 158
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 159
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 160
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 161
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 162
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 163
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 164
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 165
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 166
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 167
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 168
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 169
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 170
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 171
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 172
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 173
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 174
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 175
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 176
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 177
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 178
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 179
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 180
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 181
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 182
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 183
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 184
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 185
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 186
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 187
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 188
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 189
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 190
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 191
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 192
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 193
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 194
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 195
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 196
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 197
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 198
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 199
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Generation 200
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The minimum cost to perform the task is 2623
+The Minimum Cost Path: 
+Bakersfield  ->  Los Angeles  ->  Long Beach  ->  Carlsbad  ->  San Diego  ->  Palm Springs  ->  Santa Barbara  ->  San Luis Obispo  ->  Monterey  ->  Santa Cruz  ->  San Jose  ->  San Francisco  ->  Sanata Rosa  ->  Oakland  ->  Stockton  ->   Modesto  ->  Merced  ->  Fresno  ->  Sequoia Park  ->  Yosemite  ->  Lake Tahoe  ->  Sacramento  ->  Redding  ->  Eureka  ->  San Bernardino  ->  Barstow  ->  Las Vegas  ->  Bakersfield
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
