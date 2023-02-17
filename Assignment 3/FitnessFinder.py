@@ -8,6 +8,51 @@ inputs = [
 	(True,True,False,True), 
 	(True,True,True,True)]
 
+print("----------Generation 2----------")
+# Generation 2
+# (OR 1 (OR 2 (OR 1 3)))
+fitnessScore = 0
+for input in inputs:
+	equation = (input[0] or (input[1] or (input[0] or input[2])))
+	if not (equation ^ input[3]): fitnessScore += 1
+print("(OR 1 (OR 2 (OR 1 3))) --> ", fitnessScore)
+
+# (OR 1 (OR 2 (OR (OR 2 3) 1)))
+fitnessScore = 0
+for input in inputs:
+	equation = (input[0] or (input[1] or ((input[1] or input[2]) or input[0])))
+	if not (equation ^ input[3]): fitnessScore += 1
+print("(OR 1 (OR 2 (OR (OR 2 3) 1))) --> ", fitnessScore)
+
+# (OR 1 (OR (AND (AND 1 3) 1) (OR 1 3)))
+fitnessScore = 0
+for input in inputs:
+	equation = (input[0] or (((input[0] and input[2]) and input[0]) or (input[0] or input[2])))
+	if not (equation ^ input[3]): fitnessScore += 1
+print("(OR 1 (OR (AND (AND 1 3) 1) (OR 1 3))) --> ", fitnessScore)
+
+# (OR (AND 1 1) (OR (AND (OR 2 3) 1) (AND 2 3)))
+fitnessScore = 0
+for input in inputs:
+	equation = ((input[0] and input[0]) or (((input[1] or input[2]) and input[0]) or (input[1] and input[2])))
+	if not (equation ^ input[3]): fitnessScore += 1
+print("(OR (AND 1 1) (OR (AND (OR 2 3) 1) (AND 2 3))) --> ", fitnessScore)
+
+# (OR (OR (AND 2 2) (AND 2 3)) (OR 2 1))
+fitnessScore = 0
+for input in inputs:
+	equation = (((input[1] and input[1]) or (input[1] and input[2])) or (input[1] or input[0]))
+	if not (equation ^ input[3]): fitnessScore += 1
+print("(OR (OR (AND 2 2) (AND 2 3)) (OR 2 1)) --> ", fitnessScore)
+
+# (AND (OR 2 3) 1)
+fitnessScore = 0
+for input in inputs:
+	equation = ((input[1] or input[2]) and input[0])
+	if not (equation ^ input[3]): fitnessScore += 1
+print("(AND (OR 2 3) 1) --> ", fitnessScore)
+
+
 print("----------Generation 1----------")
 # Generation 1
 # (OR 1 (OR (AND (OR 2 3) 1) (OR 1 3)))
