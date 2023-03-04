@@ -119,14 +119,9 @@ def implementAntColonyOptimizationAlgorithm(numberOfAnts, numberOfIterations, al
 		# print(minTour, minTourCost)
 		outputData.append("Iteration " + str(i + 1) + "\n")
 		outputData.append(printLeastTour(minTour, minTourCost, numberToCityMapping))
-		# print(pheromoneMatrix)
 		performPheromoneEvaporation(pheromoneMatrix, rho)
 		for tour, tourLength in antTours:
-			# print(tour)
-			# print(tourLength)
-			# print(pheromoneMatrix)
 			addPheromoneTrace(tour, tourLength, pheromoneMatrix, Q)
-			# print(pheromoneMatrix)
 
 	writeOutputDataToFile(outputData)
 
