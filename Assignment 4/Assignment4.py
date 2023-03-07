@@ -44,13 +44,9 @@ def performTour(distanceMatrix, visibilityMatrix, pheromoneMatrix, startingCity,
 			for city in range(27):
 				if city not in tour:
 					probability = (pheromoneMatrix[currentCity][city] * pow(visibilityMatrix[currentCity][city], beta)) / probabilityDenominator
-					# print(city, probability)
 					if probability > nextCityProbability:
 						nextCityProbability = probability
 						nextCity = city
-
-		# print(nextCity, nextCityProbability)
-		# print()
 		tour.append(nextCity)
 
 	return tour
@@ -62,10 +58,10 @@ def calculateTourLength(tour, distanceMatrix):
 	tourLength += distanceMatrix[tour[-1]][tour[0]]
 	return tourLength
 
-def addPheromoneTrace(tour, tourLength, pheromoneMatrix, Q):
+def addPheromoneTrace(tour, tourLength, numberOfTimesThatTourOccured, pheromoneMatrix, Q):
 	for i in range(26):
-		pheromoneMatrix[tour[i]][tour[i + 1]] += Q / tourLength
-	pheromoneMatrix[tour[-1]][tour[0]] += Q / tourLength
+		pheromoneMatrix[tour[i]][tour[i + 1]] += Q * numberOfTimesThatTourOccured / tourLength
+	pheromoneMatrix[tour[-1]][tour[0]] += Q * numberOfTimesThatTourOccured / tourLength
 
 def performPheromoneEvaporation(pheromoneMatrix, rho):
 	for row in range(27):
@@ -101,6 +97,23 @@ def writeOutputDataToFile(outputData):
 	with open('output.txt', mode ='w') as outputFile:
 		outputFile.writelines(outputData)
 
+def checkIfTourAlreadyExists(antTours, currentTour, currentTourLength):
+	for antTour in antTours:
+		if antTour[1] == currentTourLength:
+			cityIndex = currentTour.index(antTour[0][0])
+			isSameTour = True
+			for city in antTour[0]:
+				if city != currentTour[cityIndex]:
+					isSameTour = False
+					break
+				if cityIndex == 26: cityIndex = -1
+				cityIndex += 1
+
+			if isSameTour:
+				antTour[-1] += 1
+				return True
+	return False
+
 def implementAntColonyOptimizationAlgorithm(numberOfAnts, numberOfIterations, alpha, beta, rho, Q, randomCityChoosingRate, bestAntPheromoneLayingRate):
 	distanceMatrix, numberToCityMapping = getDistanceMatrixFromFile()
 	visibilityMatrix = [[math.inf] * 27 for _ in range(27)]
@@ -112,27 +125,32 @@ def implementAntColonyOptimizationAlgorithm(numberOfAnts, numberOfIterations, al
 			if row != col:
 				visibilityMatrix[row][col] = 1 / distanceMatrix[row][col]
 
-	for i in range(numberOfIterations):
+	iterationCount = 0
+	antTours = []
+
+	while len(antTours) != 1 and iterationCount < numberOfIterations:
 		# print(pheromoneMatrix)
+		iterationCount += 1
 		antTours = []
 		for antNumber in range(numberOfAnts):
 			startingCity = random.randint(0, 26)
 			tour = performTour(distanceMatrix, visibilityMatrix, pheromoneMatrix, startingCity, beta, randomCityChoosingRate)
 			tourLength = calculateTourLength(tour, distanceMatrix)
-			antTours.append([tour, tourLength])
+			if not checkIfTourAlreadyExists(antTours, tour, tourLength):
+				antTours.append([tour, tourLength, 1])
 
-		minTour, minTourCost = findLeastTour(antTours)
+		minTour, minTourCost, numberOfTimesBestTourOccured = findLeastTour(antTours)
 		# print(minTour, minTourCost)
-		outputData.append("Iteration " + str(i + 1) + "\n")
+		outputData.append("Iteration " + str(iterationCount) + "\n")
 		outputData.append(printLeastTour(minTour, minTourCost, numberToCityMapping))
 		performPheromoneEvaporation(pheromoneMatrix, rho)
 
 		shallWeLetOnlyBestAntToLayPheromone = random.random()
 		if shallWeLetOnlyBestAntToLayPheromone < bestAntPheromoneLayingRate:
-			addPheromoneTrace(minTour, minTourCost, pheromoneMatrix, Q)
+			addPheromoneTrace(minTour, minTourCost, numberOfTimesBestTourOccured, pheromoneMatrix, Q)
 		else:
-			for tour, tourLength in antTours:
-				addPheromoneTrace(tour, tourLength, pheromoneMatrix, Q)
+			for tour, tourLength, numberOfTimesThatTourOccured in antTours:
+				addPheromoneTrace(tour, tourLength, numberOfTimesThatTourOccured, pheromoneMatrix, Q)
 
 	writeOutputDataToFile(outputData)
 
