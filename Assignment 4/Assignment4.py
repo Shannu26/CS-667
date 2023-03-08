@@ -4,10 +4,9 @@ import math
 
 def getDistanceMatrixFromFile():
 	distanceMatrix = [[0] * 27 for _ in range(27)]
-	distanceMatrix[0][0] = 1
 	numberToCityMapping = {}
 
-	with open('input.csv', mode ='r') as inputFile:
+	with open('Input.csv', mode ='r') as inputFile:
 		inputData = csv.reader(inputFile)
 		row = 0
 		for line in inputData:
@@ -94,7 +93,7 @@ def printLeastTour(tour, tourLength, numberToCityMapping):
 	return string
 
 def writeOutputDataToFile(outputData):
-	with open('output.txt', mode ='w') as outputFile:
+	with open('Output.txt', mode ='w') as outputFile:
 		outputFile.writelines(outputData)
 
 def checkIfTourAlreadyExists(antTours, currentTour, currentTourLength):
@@ -129,7 +128,6 @@ def implementAntColonyOptimizationAlgorithm(numberOfAnts, numberOfIterations, al
 	antTours = []
 
 	while len(antTours) != 1 and iterationCount < numberOfIterations:
-		# print(pheromoneMatrix)
 		iterationCount += 1
 		antTours = []
 		for antNumber in range(numberOfAnts):
@@ -140,7 +138,6 @@ def implementAntColonyOptimizationAlgorithm(numberOfAnts, numberOfIterations, al
 				antTours.append([tour, tourLength, 1])
 
 		minTour, minTourCost, numberOfTimesBestTourOccured = findLeastTour(antTours)
-		# print(minTour, minTourCost)
 		outputData.append("Iteration " + str(iterationCount) + "\n")
 		outputData.append(printLeastTour(minTour, minTourCost, numberToCityMapping))
 		performPheromoneEvaporation(pheromoneMatrix, rho)
@@ -161,6 +158,6 @@ if __name__ == "__main__":
 	bestAntPheromoneLayingRate = 0.5
 	alpha = 10
 	beta = 2
-	rho = 0.5
+	rho = 0.2
 	Q = 10000
 	implementAntColonyOptimizationAlgorithm(numberOfAnts, numberOfIterations, alpha, beta, rho, Q, randomCityChoosingRate, bestAntPheromoneLayingRate)
