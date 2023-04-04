@@ -34,12 +34,26 @@ def formNewClusters(clusters, index1, index2):
 
 	return newClusters
 
+def printClusterInfo(cluster1, cluster2, distance):
+	string = "\n|\t\t\t" + str(len(cluster1)) + "\t\t\t|\t\t\t" + str(len(cluster2)) + "\t\t\t|\t\t" + str(distance) + "\t\t|"
+	string += "\n"
+	string += "-" * 145
+	return string
+
+def writeOutputDataToFile(outputData):
+	with open('Output.txt', mode ='w') as outputFile:
+		outputFile.writelines(outputData)
+
 def hierarchialClustering():
 	dataset = getInputFromFile()
 	clusters = {}
 	for index in range(len(dataset)):
 		clusters[index] = [dataset[index]]
 	# print(clusters)
+	outputData = []
+	outputData.append("-" * 145)
+	outputData.append("\n|\tNumber of Items in First Cluster\t|\tNumber of Items in Second Cluster\t|\t\tDistance Between Cluster\t|\n")
+	outputData.append("-" * 145)
 
 	while len(clusters) != 1:
 		minDistance = math.inf
@@ -53,13 +67,15 @@ def hierarchialClustering():
 					minClusterPair = [index1, index2]
 
 		# print(minDistance, minClusterPair)
+		string = printClusterInfo(clusters[minClusterPair[0]], clusters[minClusterPair[1]], minDistance)
+		outputData.append(string)
 		clusters = formNewClusters(clusters, minClusterPair[0], minClusterPair[1])
 		
-		for key, value in clusters.items(): print(key, value)
-		print("\n\n")
-
+		# for key, value in clusters.items(): print(key, value)
+		# print("\n\n")
 	# print(clusters)
 	# print(dataset, len(dataset))
+	writeOutputDataToFile(outputData)
 
 if __name__ == "__main__":
 	hierarchialClustering()
