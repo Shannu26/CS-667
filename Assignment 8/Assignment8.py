@@ -7,16 +7,16 @@ class Board:
 		self.board.append(state[3:6])
 		self.board.append(state[6:])
 		self.movesFromStartState = []
-		self.zeroPiecePosition = self.getZeroPiecePosition(self.board)
+		self.zeroPiecePosition = (0, 0)
 
-	def __lt__(self, otherState):
-		return 0
+	def __lt__(self, otherBoard):
+		return len(self.movesFromStartState) < len(otherBoard.movesFromStartState)
 
-	def getZeroPiecePosition(self, board):
+	def setZeroPiecePosition(self):
 		for row in range(3):
 			for col in range(3):
-				if board[row][col] == 0:
-					return (row, col)
+				if self.board[row][col] == 0:
+					self.zeroPiecePosition = (row, col)
 
 def getGoalBoardPositions(goalBoard):
 	goalBoardPositions = {}
@@ -36,43 +36,43 @@ def getManhattanDistance(board, goalBoardPositions):
 
 def solveEightPuzzleProblem(startState, goalState):
 	startBoard = Board(startState)
+	startBoard.setZeroPiecePosition()
 	goalBoard = Board(goalState)
+	goalBoard.setZeroPiecePosition()
 	goalBoardPositions = getGoalBoardPositions(goalBoard.board)
 	manhattanDistance = getManhattanDistance(startBoard.board, goalBoardPositions)
-	startBoard.movesFromStartState = [startBoard.board]
 	openList = [(manhattanDistance, startBoard)]
+	startBoard.movesFromStartState = [("Start Board", startBoard.board)]
 	closedList = []
 	closedList.append(startBoard.board)
-	possibleNextMoves = {(-1, 0), (1, 0), (0, -1), (0, 1)}
+	possibleNextMoves = {}
+	possibleNextMoves[(-1, 0)] = "Up"
+	possibleNextMoves[(1, 0)] = "Down"
+	possibleNextMoves[(0, -1)] = "Left"
+	possibleNextMoves[(0, 1)] = "Right"
 
 	while openList:
-		# print(openList)
 		heuristic, currentBoard = heapq.heappop(openList)
-		# print(heuristic)
 		closedList.append(currentBoard.board)
 		if currentBoard.board == goalBoard.board:
 			return currentBoard.movesFromStartState
 		zeroPieceRow, zeroPieceCol = currentBoard.zeroPiecePosition
-		for possibleNextMoveRow, possibleNextMoveCol in possibleNextMoves:
-			# print(openList)
+		for possibleNextMoveRow, possibleNextMoveCol in possibleNextMoves.keys():
 			if 0 <= zeroPieceRow + possibleNextMoveRow <= 2 and 0 <= zeroPieceCol + possibleNextMoveCol <= 2:
 				nextZeroPieceRow = zeroPieceRow + possibleNextMoveRow
 				nextZeroPieceCol = zeroPieceCol + possibleNextMoveCol
 				nextState = currentBoard.board[0] + currentBoard.board[1] + currentBoard.board[2]
 				nextBoard = Board(nextState)
 				nextBoard.board[nextZeroPieceRow][nextZeroPieceCol], nextBoard.board[zeroPieceRow][zeroPieceCol] = nextBoard.board[zeroPieceRow][zeroPieceCol], nextBoard.board[nextZeroPieceRow][nextZeroPieceCol]
+				nextBoard.setZeroPiecePosition()
 				heuristic = len(currentBoard.movesFromStartState) + getManhattanDistance(nextBoard.board, goalBoardPositions)
 				nextBoard.movesFromStartState = currentBoard.movesFromStartState[:]
-				nextBoard.movesFromStartState.append(nextBoard.board)
-
-				heapq.heappush(openList, (heuristic, nextBoard))
-				# print(openList)
+				moveInfo = "Move Zero " + possibleNextMoves[(possibleNextMoveRow, possibleNextMoveCol)]
+				nextBoard.movesFromStartState.append((moveInfo, nextBoard.board))
+				if nextBoard.board not in closedList:
+					heapq.heappush(openList, (heuristic, nextBoard))
 
 	return []
-
-	# print(goalBoard.board in closedList)
-	# print(startBoard.board)
-	# print(goalBoard.board)
 
 def checkIfStateIsLegal(state):
 	state = state.split(" ")
@@ -86,6 +86,17 @@ def checkIfStateIsLegal(state):
 		state[index] = int(state[index])
 
 	return state
+
+def printMoves(moves):
+	print()
+	for move in moves:
+		moveInfo, board = move
+		print("\t" + moveInfo)
+		print("\t-------------")
+		for row in board:
+			print("\t| " + str(row[0]) + " | " + str(row[1]) + " | " + str(row[2]) + " |")
+			print("\t-------------")
+		print()
 
 if __name__ == "__main__":
 	startState = []
@@ -103,7 +114,5 @@ if __name__ == "__main__":
 		if len(goalState) != 0: break
 		print("State is Not Legal. Enter a Legal End State that contains digits from 0-8 only once")
 
-	# print(startState)
-	# print(goalState)
 	movesFromStartState = solveEightPuzzleProblem(startState, goalState)
-	print(movesFromStartState)
+	printMoves(movesFromStartState)
