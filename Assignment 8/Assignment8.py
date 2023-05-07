@@ -7,16 +7,9 @@ class Board:
 		self.board.append(state[3:6])
 		self.board.append(state[6:])
 		self.movesFromStartState = []
-		self.zeroPiecePosition = (0, 0)
-
+		
 	def __lt__(self, otherBoard):
 		return len(self.movesFromStartState) < len(otherBoard.movesFromStartState)
-
-	def setZeroPiecePosition(self):
-		for row in range(3):
-			for col in range(3):
-				if self.board[row][col] == 0:
-					self.zeroPiecePosition = (row, col)
 
 def getGoalBoardPositions(goalBoard):
 	goalBoardPositions = {}
@@ -24,6 +17,12 @@ def getGoalBoardPositions(goalBoard):
 		for col in range(3):
 			goalBoardPositions[goalBoard[row][col]] = (row, col)
 	return goalBoardPositions
+
+def getZeroPiecePosition(board):
+		for row in range(3):
+			for col in range(3):
+				if board[row][col] == 0:
+					return (row, col)
 
 def getManhattanDistance(board, goalBoardPositions):
 	manhattanDistance = 0
@@ -36,9 +35,7 @@ def getManhattanDistance(board, goalBoardPositions):
 
 def solveEightPuzzleProblem(startState, goalState):
 	startBoard = Board(startState)
-	startBoard.setZeroPiecePosition()
 	goalBoard = Board(goalState)
-	goalBoard.setZeroPiecePosition()
 	goalBoardPositions = getGoalBoardPositions(goalBoard.board)
 	manhattanDistance = getManhattanDistance(startBoard.board, goalBoardPositions)
 	openList = [(manhattanDistance, startBoard)]
@@ -55,8 +52,10 @@ def solveEightPuzzleProblem(startState, goalState):
 		heuristic, currentBoard = heapq.heappop(openList)
 		closedList.append(currentBoard.board)
 		if currentBoard.board == goalBoard.board:
-			return currentBoard.movesFromStartState
-		zeroPieceRow, zeroPieceCol = currentBoard.zeroPiecePosition
+			movesFromStartState = currentBoard.movesFromStartState[:]
+			movesFromStartState.append(("Reached Goal Board", currentBoard.board))
+			return movesFromStartState
+		zeroPieceRow, zeroPieceCol = getZeroPiecePosition(currentBoard.board)
 		for possibleNextMoveRow, possibleNextMoveCol in possibleNextMoves.keys():
 			if 0 <= zeroPieceRow + possibleNextMoveRow <= 2 and 0 <= zeroPieceCol + possibleNextMoveCol <= 2:
 				nextZeroPieceRow = zeroPieceRow + possibleNextMoveRow
@@ -64,7 +63,6 @@ def solveEightPuzzleProblem(startState, goalState):
 				nextState = currentBoard.board[0] + currentBoard.board[1] + currentBoard.board[2]
 				nextBoard = Board(nextState)
 				nextBoard.board[nextZeroPieceRow][nextZeroPieceCol], nextBoard.board[zeroPieceRow][zeroPieceCol] = nextBoard.board[zeroPieceRow][zeroPieceCol], nextBoard.board[nextZeroPieceRow][nextZeroPieceCol]
-				nextBoard.setZeroPiecePosition()
 				heuristic = len(currentBoard.movesFromStartState) + getManhattanDistance(nextBoard.board, goalBoardPositions)
 				nextBoard.movesFromStartState = currentBoard.movesFromStartState[:]
 				moveInfo = "Move Zero " + possibleNextMoves[(possibleNextMoveRow, possibleNextMoveCol)]
@@ -87,16 +85,52 @@ def checkIfStateIsLegal(state):
 
 	return state
 
-def printMoves(moves):
-	print()
-	for move in moves:
+def printMoves(startState, goalState, moves):
+	string = ""
+	# print()
+	# print("Given,")
+	# print("\tStart State:", startState)
+	# print("\tGoal State:", goalState)
+	# print()
+	# print("Steps To Follow:")
+	# print()
+	# for move in moves:
+	# 	moveInfo, board = move
+	# 	print("\t" + moveInfo)
+	# 	print("\t-------------")
+	# 	for row in board:
+	# 		print("\t| " + str(row[0]) + " | " + str(row[1]) + " | " + str(row[2]) + " |")
+	# 		print("\t-------------")
+	# 	print()
+
+	string += "Given,\n"
+	string += "\tStart State: "
+	for value in startState:
+		string += str(value) + " "
+	string += "\n\tGoal State: "
+	for value in goalState:
+		string += str(value) + " "
+	string += "\n\nSteps To Follow:\n\n"
+	for index, move in enumerate(moves):
 		moveInfo, board = move
-		print("\t" + moveInfo)
-		print("\t-------------")
+		string += "\t" + moveInfo + "\n"
+		string += "\n\t\t|"
+		string += "\n\t\tV"
+		string += "\n\n"
+		string += "\t-------------\n"
 		for row in board:
-			print("\t| " + str(row[0]) + " | " + str(row[1]) + " | " + str(row[2]) + " |")
-			print("\t-------------")
-		print()
+			string += "\t| " + str(row[0]) + " | " + str(row[1]) + " | " + str(row[2]) + " |\n"
+			string += "\t-------------\n"
+		if index != len(moves) - 1:
+			string += "\n\t\t|"
+			string += "\n\t\tV"
+			string += "\n\n"
+
+	return string
+
+def writeOutputDataToFile(string):
+	with open('EightPuzzleOutput.txt', mode ='w') as outputFile:
+		outputFile.writelines(string)
 
 if __name__ == "__main__":
 	startState = []
@@ -115,4 +149,5 @@ if __name__ == "__main__":
 		print("State is Not Legal. Enter a Legal End State that contains digits from 0-8 only once")
 
 	movesFromStartState = solveEightPuzzleProblem(startState, goalState)
-	printMoves(movesFromStartState)
+	string = printMoves(startState, goalState, movesFromStartState)
+	writeOutputDataToFile(string)
