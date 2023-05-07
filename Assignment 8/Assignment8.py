@@ -87,22 +87,6 @@ def checkIfStateIsLegal(state):
 
 def printMoves(startState, goalState, moves):
 	string = ""
-	# print()
-	# print("Given,")
-	# print("\tStart State:", startState)
-	# print("\tGoal State:", goalState)
-	# print()
-	# print("Steps To Follow:")
-	# print()
-	# for move in moves:
-	# 	moveInfo, board = move
-	# 	print("\t" + moveInfo)
-	# 	print("\t-------------")
-	# 	for row in board:
-	# 		print("\t| " + str(row[0]) + " | " + str(row[1]) + " | " + str(row[2]) + " |")
-	# 		print("\t-------------")
-	# 	print()
-
 	string += "Given,\n"
 	string += "\tStart State: "
 	for value in startState:
@@ -110,6 +94,16 @@ def printMoves(startState, goalState, moves):
 	string += "\n\tGoal State: "
 	for value in goalState:
 		string += str(value) + " "
+	string += "\n\n\tStart Board"
+	string += "\n\t-------------"
+	for index in range(0, 9, 3):
+		string += "\n\t| " + str(startState[index]) + " | " + str(startState[index + 1]) + " | " + str(startState[index + 2]) + " |\n"
+		string += "\t-------------"
+	string += "\n\n\tGoal Board"
+	string += "\n\t-------------"
+	for index in range(0, 9, 3):
+		string += "\n\t| " + str(goalState[index]) + " | " + str(goalState[index + 1]) + " | " + str(goalState[index + 2]) + " |\n"
+		string += "\t-------------"
 	string += "\n\nSteps To Follow:\n\n"
 	for index, move in enumerate(moves):
 		moveInfo, board = move
