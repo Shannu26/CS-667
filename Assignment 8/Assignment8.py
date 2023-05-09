@@ -1,6 +1,6 @@
 import heapq
 
-class Board:
+class EightPuzzleBoard:
 	def __init__(self, state):
 		self.board = []
 		self.board.append(state[:3])
@@ -19,10 +19,10 @@ def getGoalBoardPositions(goalBoard):
 	return goalBoardPositions
 
 def getZeroPiecePosition(board):
-		for row in range(3):
-			for col in range(3):
-				if board[row][col] == 0:
-					return (row, col)
+	for row in range(3):
+		for col in range(3):
+			if board[row][col] == 0:
+				return (row, col)
 
 def getManhattanDistance(board, goalBoardPositions):
 	manhattanDistance = 0
@@ -34,8 +34,8 @@ def getManhattanDistance(board, goalBoardPositions):
 	return manhattanDistance
 
 def solveEightPuzzleProblem(startState, goalState):
-	startBoard = Board(startState)
-	goalBoard = Board(goalState)
+	startBoard = EightPuzzleBoard(startState)
+	goalBoard = EightPuzzleBoard(goalState)
 	goalBoardPositions = getGoalBoardPositions(goalBoard.board)
 	manhattanDistance = getManhattanDistance(startBoard.board, goalBoardPositions)
 	openList = [(manhattanDistance, startBoard)]
@@ -61,7 +61,7 @@ def solveEightPuzzleProblem(startState, goalState):
 				nextZeroPieceRow = zeroPieceRow + possibleNextMoveRow
 				nextZeroPieceCol = zeroPieceCol + possibleNextMoveCol
 				nextState = currentBoard.board[0] + currentBoard.board[1] + currentBoard.board[2]
-				nextBoard = Board(nextState)
+				nextBoard = EightPuzzleBoard(nextState)
 				nextBoard.board[nextZeroPieceRow][nextZeroPieceCol], nextBoard.board[zeroPieceRow][zeroPieceCol] = nextBoard.board[zeroPieceRow][zeroPieceCol], nextBoard.board[nextZeroPieceRow][nextZeroPieceCol]
 				heuristic = len(currentBoard.movesFromStartState) + getManhattanDistance(nextBoard.board, goalBoardPositions)
 				nextBoard.movesFromStartState = currentBoard.movesFromStartState[:]
@@ -77,6 +77,8 @@ def checkIfStateIsLegal(state):
 	if len(state) != 9:
 		return []
 	for index in range(9):
+		if not state[index].isdigit():
+			return []
 		if not 0 <= int(state[index]) <= 8:
 			return []
 		if int(state[index]) in state:
